@@ -14,7 +14,7 @@ see [here](https://github.com/mpv-player/mpv).
 # Installing
 
     [dependencies]
-    mpv = "0.2"
+    mpv = "0.3"
 
 the mpv package is needed for this to run.
 
