@@ -141,10 +141,9 @@
 //!
 
 
-
 #[macro_use]
 extern crate enum_primitive;
-extern crate num;
+extern crate num_traits;
 
 mod mpv_error;
 mod mpv_enums;

@@ -1,6 +1,6 @@
 use std::{result, ffi, fmt, error};
 use std::error::Error as StdError;
-pub use num::FromPrimitive;
+pub use num_traits::FromPrimitive;
 
 use mpv_gen::mpv_error_string;
 pub use mpv_gen::Error;
