@@ -1,4 +1,4 @@
-extern crate mpv ;
+extern crate mpv;
 
 // use mpv::mpv;
 use std::env;
@@ -11,10 +11,10 @@ fn simple_example(video_path: &Path) {
 
         // set option "sid" to "no" (no subtitles)
         // mpv options should be set before initializing
-        mpv_builder.set_option("sid","no").unwrap();
+        mpv_builder.set_option("sid", "no").unwrap();
 
         // enable On Screen Controller (disabled with libmpv by default)
-        mpv_builder.set_option("osc",true).unwrap();
+        mpv_builder.set_option("osc", true).unwrap();
 
         let mut mpv = mpv_builder.build().expect("Failed to build MPV handler");
 

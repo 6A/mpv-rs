@@ -1,4 +1,4 @@
-extern crate mpv ;
+extern crate mpv;
 extern crate sdl2;
 extern crate sdl2_sys;
 #[macro_use]
